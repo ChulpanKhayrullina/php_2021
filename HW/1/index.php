@@ -2,7 +2,7 @@
 
 if (isset($_REQUEST["submit"])) {
     $code = $_REQUEST["brainfuck_code"];
-    $parameter = $_REQUEST["param"];
+    $parameter = $_REQUEST["parameter"];
 
     $code_str = str_split($code);
     $parameter_str = str_split($parameter);
