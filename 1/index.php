@@ -9,7 +9,7 @@ if (isset($_REQUEST["submit"])) {
 
     check($code_str, $parameter_str);
 } else {
-    include ("hw_1.html");
+    include("hw_1.html");
 }
 
 function check ($code_str, $parameter_str) {
