@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw9</title>
+</head>
+<body>
+<form action="index.php" method="post" class="form">
+    Введите строку:
+    <p><label>
+        <input type="text" name="str">
+    </label></p>
+    <br/>
+
+    Выберите логгер:
+    <br/>
+    <label>
+        <input type="checkbox" name="1" id="file" value="file" />
+        File Logger
+    </label>
+    <br/>
+    <label>
+        <input type="checkbox" name="2" id="browser" value="browser"/>
+        Browser Logger
+    </label>
+
+    <br/>
+
+    <div class="featuresBrowser" id="featuresBrowser" style="display: none">
+        <label>
+            <input type="checkbox" name="11" value="d-m-y\TH:i:s"/>
+            Дата и время
+        </label>
+        <label>
+            <input type="checkbox" name="12" value="d-m-y"/>
+            Дата
+        </label>
+        <label>
+            <input type="checkbox" name="13" value="off"/>
+            Выключено
+        </label>
+    </div>
+
+    <div class="featuresFile" id="featuresFile" style="display: none">
+        <label>
+            <input type="text" name="filename" value="File name"/>
+        </label>
+    </div>
+
+    <br/>
+    <p><label>
+        <input type="submit" name="ok" value="ok"/>
+    </label></p>
+</form>
+
+</body>
+</html>
+<script>
+    document.querySelector('#file').addEventListener('change', function () {
+        if ( this.checked ) {
+            document.getElementById("featuresFile").style.display = "block";
+        } else {
+            document.getElementById("featuresFile").style.display = "none";
+        }
+    });
+
+    document.querySelector('#browser').addEventListener('change', function () {
+        if ( this.checked ) {
+            document.getElementById("featuresBrowser").style.display = "block";
+        } else {
+            document.getElementById("featuresBrowser").style.display = "none";
+        }
+    });
+</script>
