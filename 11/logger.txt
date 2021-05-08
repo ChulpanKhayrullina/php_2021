@@ -1,0 +1,49 @@
+[
+    {
+        "date": "08.05.21 19:38:17:000000 UTC",
+        "type": "logger\\Logger emergency",
+        "content": "EMERGENCY"
+    },
+    {
+        "date": "08.05.21 19:38:17:000000 UTC",
+        "type": "logger\\Logger alert",
+        "content": "ALERT"
+    },
+    {
+        "date": "08.05.21 19:38:17:000000 UTC",
+        "type": "logger\\Logger critical",
+        "content": "CRITICAL"
+    }
+][
+    {
+        "date": "08.05.21 19:38:27:000000 UTC",
+        "type": "logger\\Logger emergency",
+        "content": "EMERGENCY"
+    },
+    {
+        "date": "08.05.21 19:38:27:000000 UTC",
+        "type": "logger\\Logger alert",
+        "content": "ALERT"
+    },
+    {
+        "date": "08.05.21 19:38:27:000000 UTC",
+        "type": "logger\\Logger critical",
+        "content": "CRITICAL"
+    }
+][
+    {
+        "date": "08.05.21 19:57:29:000000 UTC",
+        "type": "logger\\Logger emergency",
+        "content": "EMERGENCY"
+    },
+    {
+        "date": "08.05.21 19:57:29:000000 UTC",
+        "type": "logger\\Logger alert",
+        "content": "ALERT"
+    },
+    {
+        "date": "08.05.21 19:57:29:000000 UTC",
+        "type": "logger\\Logger critical",
+        "content": "CRITICAL"
+    }
+]
